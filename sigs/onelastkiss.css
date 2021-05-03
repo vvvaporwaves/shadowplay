@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://kopefully.github.io/fonts/margin/margin.css');
+
+#v3sig-olk {
+  width: 400px;
+  height: 150px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 2px;
+  background: white;
+  border: 1px solid var(--kaworu);
+  overflow: hidden;
+  position: relative;
+  cursor: crosshair;
+
+  --kaworu: #cbb7c3;
+  --shinji: #68534b;
+}
+
+#v3-kaworu {
+  background: url(https://kopefully.github.io/shadowplay/kaworu.svg) -10px -32px/425px
+    no-repeat;
+  padding: 20px 25px 25px;
+  border-radius: 18px;
+  height: calc(150px - 15px * 2);
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+#v3sig-olk v3 {
+  font: 900 12px/1em "roboto", arial;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  z-index: 2;
+}
+
+#v3sig-olk v4 {
+  display: block;
+  font: 48px/0.5em "margin";
+  position: relative;
+  z-index: 3;
+}
+
+#v3-shinji {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background: linear-gradient(var(--kaworu) 20%, var(--shinji));
+  height: 150px;
+  width: 400px;
+  border-radius: 18px;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 0 25px 15px;
+  z-index: 2;
+}
+
+#v3-shinji:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  background: url(https://i.postimg.cc/BQQvspWy/gifgif.gif) 0 0 / cover;
+  mix-blend-mode: soft-light;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  z-index: 2;
+}
+
+#v3olk-links {
+  width: 300px;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  margin: 0;
+  padding: 0 0 0 75px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  z-index: 5;
+  transition: 0.3s ease;
+}
+
+#v3sig-olk:hover #v3olk-links li {
+  opacity: 1;
+}
+
+#v3olk-links li {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px 8px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font: 900 13px/1em roboto, arial;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 11;
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+#v3olk-links a {
+  font: 900 13px/1em roboto, arial !important;
+  color: var(--kaworu) !important;
+  text-decoration: none;
+}
