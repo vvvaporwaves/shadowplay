@@ -4,7 +4,8 @@
 #v3sig-olk {
   width: 400px;
   height: 150px;
-  margin: auto;
+  margin: 5px auto;
+  color: black!important;
   border-radius: 20px;
   padding: 2px;
   background: white;
