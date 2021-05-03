@@ -1,0 +1,21 @@
+.caspian {
+	--name: "caspian gunning";
+	--shadow: #1f1412;
+	--midtone: #d0bfb6;
+	--highlight: #c43c27;
+	--img: url(https://i.pinimg.com/564x/a5/0d/a3/a50da3ac6116c8f15f839bcdded5eb41.jpg)
+		0 / cover no-repeat;
+	--icon: "\eb91";
+	--iconV2: "\eb91";
+	--font: cappuccicons;
+
+	--wandbg: url(https://kopefully.github.io/dark-academia/cas/wandbg.svg);
+	--homebg: url(https://kopefully.github.io/dark-academia/cas/homebg.svg);
+	--thread1bg: url(https://kopefully.github.io/dark-academia/cas/thread1bg.svg);
+	--thread2bg: url(https://kopefully.github.io/dark-academia/cas/thread2bg.svg);
+	--thrdecobg: url(https://kopefully.github.io/dark-academia/cas/thrdecobg.svg);
+	--monthbg: url(https://kopefully.github.io/dark-academia/cas/monthbg.svg) 0 /
+		contain no-repeat;
+	--ship1bg: url(https://kopefully.github.io/dark-academia/cas/ship1bg.svg);
+	--ship2bg: url(https://kopefully.github.io/dark-academia/cas/ship2bg.svg);
+}
