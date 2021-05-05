@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.v3-lucaPost-purple {
+  --one: #ef91f2;
+  --two: #cb27e8;
+  --three: #b800fe;
+  --four: #8900fe;
+  --five: #a368db;
+}
+
+.v3-lucaPost-gray {
+  --one: #c1c1c1;
+  --two: #a5a5a5;
+  --three: #838383;
+  --four: #646464;
+  --five: #a1a1a1;
+}
+
+.v3-lucaPost-container {
+  width: 400px;
+  margin: 25px auto;
+  background: url(https://i.postimg.cc/vmVryPQs/gridbg.png) -15px -6px,
+    linear-gradient(var(--five), var(--four));
+  background-blend-mode: screen;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: grid;
+  grid: auto / 325px 75px;
+  position: relative;
+}
+
+.v3-lucaPost-header {
+  grid-area: 1/1/2/3;
+  background: var(--three);
+  padding: 5px 3px 5px;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 2px solid black;
+  list-style-type: none;
+  display: flex;
+  margin: 0 0 5px 0;
+  justify-content: flex-end;
+}
+
+.v3-lucaPost-header li {
+  margin-right: 5px;
+  border-radius: 5px;
+  background: var(--one);
+  padding: 2px 2px 1px 1px;
+  font-size: 14px;
+  height: 22px;
+  width: 22px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.v3-lucaPost-body {
+  margin: 15px 0 0;
+  padding: 0 25px 25px;
+  font: 14px/1.5em arial;
+  text-align: justify;
+}
+
+.v3-lucaPost-body section {
+  background: var(--one);
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.v3-lucaPost-tag {
+  width: 125px;
+  background: var(--one);
+  border-radius: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  word-break: break-word;
+  text-align: left;
+  place-self: start;
+  margin-top: 15px;
+  position: sticky;
+  top: 15px;
+}
+
+.v3-lucaPost-tag a {
+  display: block;
+  padding: 5px 10px 10px 10px;
+  font: 8px/1.3em "press start 2p";
+  text-decoration: none;
+  color: var(--three);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.v3-lucaPost-tag a:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  opacity: 0.6;
+}
