@@ -27,6 +27,7 @@
   display: grid;
   grid: auto / 325px 75px;
   position: relative;
+  color: black!important;
 }
 
 .v3-lucaPost-header {
